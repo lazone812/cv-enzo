@@ -1,0 +1,130 @@
+body{
+	font-family: 'PT Sans',sans-serif;
+	background-color: #af8e8e;
+}
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: pink;
+	display: block;
+	border-radius: 5px;
+    transition: 0.3s ease;
+    font-size: 12;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+	color: pink);
+	text-decoration: none;
+}
+.nav li a:hover{
+	font-weight: bold;
+}
+.nav li{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 30px;
+	margin: 0 20px;
+	transition: 0.3s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 200px 20px 20px;
+	background: radial-gradient(circle,#000000,#272525);
+	/* border-radius: 50%; */
+	transition: 0.3s ease;
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 650px;
+	height: 550px;
+	transform: translate(-60%,-30%);
+}
+.change .bar{
+	background-color: pink;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+
+.roundedImage{
+    overflow:hidden;
+    /* -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px; */
+    width:200px;
+    height:200px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 100px;
+   
+}
+section{
+    margin-right: auto;
+    margin-left: auto;
+    width: 6em;
+    
+
+}
+
+.contact{
+    padding: 17px;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 32px;
+    color:  pink;
+    font-weight: bold;
+}
+i {
+	color: pink;
+	font-family: 'PT Sans',sans-serif;
+}
+a {
+	color: pink;
+	
+}
+
+.contact_motif {
+	margin: 15px;
+	position:relative;
+	align-items: center;
+	justify-items: center;
+}
+
+ 
+
+    
+       
+
+
+
