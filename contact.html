@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+  <!-- Bootstrap Js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="style2.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+    rel="stylesheet" />
+
+  <title>contact</title>
+</head>
+
+<body>
+    <div class="container navigation pt-3 fixed-top">
+    <div class="row">
+      <div class="col-6 lg-6 col-md-6 d-flex justify-content-start align-items-center">
+       <a href="index.html"> <i  class="fas fa-anchor fa-2x text-warning"></i></a>
+      </div>
+    </div>
+ 
+   <div class="container" id="telephone">
+<section class="mb-4">
+  <h2 class="h1-responsive font-weight-bold text-center text-warning my-4">Contact </h2>
+    <p class="text-center font-weight-bold w-responsive mx-auto mb-5">si vous avez des questions, n'hésitez pas à me contacter.</p>
+            <div class="row">
+
+        
+        <div class="col-md-6 mb-md-0 mb-5 ">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                
+                <div class="row">
+
+                   
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">nom</label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">email</label>
+                        </div>
+                    </div>
+                    
+
+                </div>
+               
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">sujet</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+
+                    
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message"> message</label>
+                        </div>
+
+                    </div>
+                </div>
+              
+            </form>
+
+            <div class="text-center text-md-right">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">envoyer</a>
+            </div>
+            <div class="status"></div>
+        </div>
+       
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>aix en provence</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>0626386021</p>
+                </li>
+
+                <li><a href="https://www.google.com/intl/fr/gmail/about/"><i class="fas fa-envelope mt-4 fa-2x"></i></a>
+                    <p>enzo.riffi@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+      
+
+    </div>
+
+</section>
+</div>
+
+
+
+
+</body>
